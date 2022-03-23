@@ -10,3 +10,4 @@ class ProductItem(scrapy.Item):
     category = scrapy.Field()
     name = scrapy.Field()
     price = scrapy.Field()
+    sku = scrapy.Field()
